@@ -159,39 +159,41 @@ margin-bottom: 0px;
 margin-top: 4px;
 }
 
-.row .large-12 {
+/*.row .large-12 {
   position: relative;
   width: 100%;
   margin-bottom: 0%;
 }
-
+*/
 
 .row .large-7 {
 	border-right:5px solid; 
 	border-color: #8F8F8F;
+  background-color: rgba(255,255,255, .9);
+  position: relative;
 
 	margin-top: 0px;
 	padding-right: 4%;
 	padding-left: 4%;
 	padding-top: 4%;
 	padding-bottom: 3%;
-  background-color: rgba(255,255,255, .9);
-  position: relative;
-  width: 58.33333%;
+
+/*  width: 58.33333%;*/
 }
 
 .row .large-5 {
   border-right:5px solid;
 	border-left:0px solid; 
 	border-color: #8F8F8F;
-	padding-left:   3%;
-	padding-right:  3%;
-	padding-top:    3%;
-	padding-bottom: 3%;
-
   background-color: rgba(255,255,255, .9);
   position: relative;
-  width: 41.66667%;
+/*	padding-left:   3%;
+	padding-right:  3%;
+	padding-top:    3%;
+	padding-bottom: 3%;*/
+
+
+/*  width: 41.66667%;*/
 }
 
 /* -----------------------------------------
