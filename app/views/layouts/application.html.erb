@@ -19,7 +19,7 @@
 
 	<%= stylesheet_link_tag    "application" %>
 
-<!-- 	<%= javascript_include_tag "vendor/custom.modernizr" %> -->
+
 
   <%= csrf_meta_tags %>
 </head>
@@ -32,7 +32,7 @@
   <!--     <p class"title">how can we help you?</p> -->
     </li>
     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-    <li class="toggle-topbar menu-icon"><span>Menu</span></li>
+    <li class="toggle-topbar menu-icon"><a href="#"></a>/li>
   </ul>
 
   <section class="top-bar-section">
@@ -103,51 +103,22 @@
   <!--   </div> -->
   </footer>
   
-  
+   <%= javascript_include_tag "vendor/custom.modernizr" %>
    <%= javascript_include_tag "application" %>
-
-  
+   <%= javascript_include_tag "slider.js"%>
    <%= javascript_include_tag "jquery.easing.1.3.js" %>
    <%= javascript_include_tag "jquery.liquid-slider.js"%>
    <%= javascript_include_tag "jquery.liquid-slider.min.js"%>
    <%= javascript_include_tag "jquery.touchSwipe.min.js"%>
 
 
-
-<script>
-//   $(function() {
-//     $('#slider-id').codaSlider();
-// });
-</script>
-
-    <script>
-    $(function(){
-
-      /* Here is the slider using default settings */
-      // $('#slider-id').liquidSlider();
+   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
 
-       // If you want to adjust the settings, you set an option
-       //   as follows:
-
-          $('#slider-id').liquidSlider({
-            autoSlide:true,
-            autoHeight:true
-          });
-
-         // Find more options at http://liquidslider.kevinbatdorf.com/
-      
-
-      /* If you need to access the internal property or methods, use this:
-
-      var sliderObject = $.data( $('#slider-id')[0], 'liquidSlider');
-      console.log(sliderObject);
-
-      */
 
 
-    });
-    </script>
+
+
 
 </body>
 </html>

@@ -1,0 +1,210 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+.cname , .street, .apt, .area, .phone, .fax {
+  
+  font-style: bold;
+  display: inline, 3 padding ;
+  line-height: 1px;
+}
+
+
+footer {
+  background-color:#efefef;
+  margin-top:100px;
+}
+
+
+header{
+	padding-bottom: 10px; 
+  height: 60px; 
+  display: block;
+  background-color: #26DE63; 
+  margin-bottom: 4%;
+}
+
+.top-bar {
+/*background: #26DE63;*/
+background-color: #939598;
+/*overflow: visible;*/
+}
+
+
+body {
+  background: image-url('/assets/blurry_grass_by_GodlikeMcx.jpg')no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+.top-bar .name h1 {
+/*	font-family: 'Vollkorn', serif;*/
+	font-style: 400italic;
+	color: white;
+	line-height: 50px;
+	font-size: 1.0625em;
+	margin: 0;
+}
+
+
+
+.contain-to-grid {
+	background-color: #939598;
+}
+
+.title_fonts{
+font-family: 'Elsie', cursive;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Arapey', serif;
+font-family: 'Vollkorn', serif;
+}
+
+
+.top-bar .name {
+
+  font-size: 40px;
+  color: blue;
+  width: 100%;
+  display: block;
+  padding: 0 16.66667px;
+}
+
+.top-bar-section li a:not(.button):hover {
+background: #26DE63;
+}
+
+.top-bar-section > ul > .divider {
+border-bottom: none;
+border-top: none;
+border-right: solid 2px white;
+border-left: solid 3px white;
+clear: none;
+height: 30px;
+width: 0px;
+}
+
+hr {
+border: solid #dddddd;
+border-width: 1px 0 0;
+clear: both;
+/*margin: 1.25em 0 1.1875em;*/
+height: 0;
+}
+
+.button:hover, .button:focus {
+background-color: rgb(75, 216, 40);
+}
+
+
+.button {
+border-style: solid;
+border-width: 1px;
+cursor: pointer;
+font-family: inherit;
+font-weight: bold;
+line-height: 1;
+margin: 0 0 1.25em;
+position: relative;
+text-decoration: none;
+text-align: center;
+display: inline-block;
+padding-top: 0.75em;
+padding-right: 1.5em;
+padding-bottom: 0.8125em;
+padding-left: 1.5em;
+font-size: 1em;
+background-color: rgb(228, 22, 22);
+border-color: #2284a1;
+color: white;
+}
+
+
+/*.top-bar-section ul {
+width: 100%;
+height: auto;
+display: block;
+background:  #26DE63;
+font-size: 16px;
+margin: 0;
+}*/
+
+h2 {
+color: #8F8F8F;
+font-size: 2em;
+line-height: 99.0%
+}
+
+h1{
+color: white;
+margin-bottom: 0px;
+margin-top: 4px;
+}
+
+/*.row .large-12 {
+  position: relative;
+  width: 100%;
+  margin-bottom: 0%;
+}
+*/
+
+.row .large-7 {
+	border-right:5px solid; 
+	border-color: #8F8F8F;
+  background-color: rgba(255,255,255, .9);
+  position: relative;
+
+	margin-top: 0px;
+	padding-right: 4%;
+	padding-left: 4%;
+	padding-top: 4%;
+	padding-bottom: 3%;
+
+/*  width: 58.33333%;*/
+}
+
+.row .large-5 {
+  border-right:5px solid;
+	border-left:0px solid; 
+	border-color: #8F8F8F;
+  background-color: rgba(255,255,255, .9);
+  position: relative;
+/*	padding-left:   3%;
+	padding-right:  3%;
+	padding-top:    3%;
+	padding-bottom: 3%;*/
+
+
+/*  width: 41.66667%;*/
+}
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
